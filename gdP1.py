@@ -2,7 +2,7 @@
 """
 Created on 10/01/23 11:24 am
 
-@author: gd226719@ohio.edu Garrett Daily
+@author: Garrett Daily
 """
 
 #####
@@ -26,9 +26,6 @@ y = 3
 print(x > y)
 print(x < y)
 
-# etc... so let's see where they are useful
-
-
 #####
 ##### CONDITIONAL LOGIC
 #####
@@ -42,7 +39,7 @@ print(x < y)
     - if else   (a condition is true, run some code; else, run some other code)
 """
 
-# the structure of an IF statement needs attention to detail - take notes on this - it is something we will use A LOT
+# the structure of an IF statement needs attention to detail 
 # in English, the next line reads "if the condition x > y evaluates to True, then run the indented code following the colon (until there is no more indented code)
 if (x > y):
     print("yes, x is greater than y")
@@ -61,7 +58,7 @@ if (x > y):
     print("y: " + str(y))
     print("yes, x is greater than y")
 
-# but pay CLOSE attention to your indentation:
+# pay CLOSE attention to your indentation:
 # notice errors if the indentation does not match - the statement must be hard left if you want it out of the if block of code; otherwise, the indentation must match
 x = 1 
 y = 2 
