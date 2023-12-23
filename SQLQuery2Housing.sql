@@ -13,7 +13,7 @@ From PortfolioProject.dbo.NashvilleHousing
 Update NashvilleHousing
 SET SaleDate = CONVERT(Date,SaleDate)
 
--- If it doesn't Update properly
+-- If it doesn't update properly
 
 ALTER TABLE NashvilleHousing
 Add SaleDateConverted Date;
